@@ -1,0 +1,23 @@
+{
+    "name": "gianmachella/delicias-nana-slim",
+    "description": "Proyecto para web de Delicias Nana usando Slim como Framework",
+    "license": "academia",
+    "authors": [
+        {
+            "name": "Gian Machella",
+            "email": "gianmachellaf@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Carrito\\":"src/",
+            "Library\\":"lib/",
+            "Interfaces\\":"lib/interfaces/"
+            
+        }
+    },
+    "require": {
+        "slim/slim": "^4.4",
+        "slim/psr7": "^1.0"
+    }
+}
